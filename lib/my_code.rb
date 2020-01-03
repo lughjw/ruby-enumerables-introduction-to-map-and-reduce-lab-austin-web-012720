@@ -32,11 +32,6 @@ def map_to_double(source_array)
 end
 
 def map_to_square(source_array)
-  
-end
-
-# Reduce-like methods
-def reduce_to_total(source_array, starting_point)
   retArray = []
   index = 0
   while index < source_array.size do
@@ -45,6 +40,11 @@ def reduce_to_total(source_array, starting_point)
   end
   
   retArray
+end
+
+# Reduce-like methods
+def reduce_to_total(source_array, starting_point)
+  
 end
 
 def reduce_to_all_true(source_array)
