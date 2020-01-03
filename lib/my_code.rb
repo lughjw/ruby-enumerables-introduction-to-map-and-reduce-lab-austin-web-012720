@@ -37,7 +37,12 @@ end
 
 # Reduce-like methods
 def reduce_to_total(source_array, starting_point)
-  
+  retArray = []
+  index = 0
+  while index < source_array.size do
+    retArray[index] = source_array[index] * source_array[index]
+    index += 1
+  end
 end
 
 def reduce_to_all_true(source_array)
